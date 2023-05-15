@@ -2,6 +2,29 @@
 <style>
     html {
       background-image: url('mountain.jpg');
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+      background-color: rgba(255, 228, 196, 0.85);
+      max-width: fit-content;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+    button{
+        background-color: rgba(118, 118, 118, 0.589);
+        border-radius: 3.5px;
+        height: 50%;
+        width: 9%;
+    }
+    hr{
+        height: 2.5px;
+        background-color: black;
+    }
+    div{
+        background-color: rgba(255, 228, 196, 1);
+        margin-top: -25px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
     </style>
 <html>
@@ -9,10 +32,18 @@
         <title>Pictures</title>
     </head>
     <body>
-        <center><h1>Pictures</h1></center>
-        <hr>
-        <h2>Some pictures i don't know what they do</h2>
-        <hr>
+        <div>
+            <center><h1>Pictures</h1></center>
+            <hr>
+            <h2>Some pictures I don't know what's the point</h2>
+            <hr>
+            <nav>
+                <a href="index.html"><button>Home</button></a>
+                <a href="me.html"><button>About me</button></a>
+                <a href="classworks.html"><button>Classworks</button></a>
+            </nav>
+            <hr>
+        </div>
         <nav>
             <img src="default.jpg" alt="Lets pretend">
             <img src="default.jpg" alt="That I have">
@@ -23,8 +54,6 @@
             <img src="default.jpg" alt="Put">
             <img src="default.jpg" alt="Here.">
         </nav>
-        
         <hr>
-
     </body>
 </html>
